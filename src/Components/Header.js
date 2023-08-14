@@ -22,7 +22,7 @@ const Header= () => {
       <div className="flex justify-center items-center">
       <span className="py-2.5 px-1 mt-2.5 mr-1 font-bold text-green">
         {" "}
-        {loggedInUser ? `Welcome ${loggedInUser} ` : "Welcome to GoodFood"} !!!
+        {loggedInUser ? `Welcome ${loggedInUser} ` : "Welcome to Food Land"} !!!
       </span>
     </div>
       <div className=" flex items-center">
@@ -59,8 +59,8 @@ const Header= () => {
           >
             {buttonName}
           </button>
-          {/* <li className="p-4">
-            <Link to={"/loginpage"}>Login</Link></li> */}
+           {/* <li className="p-4">
+            <Link to={"/loginpage"}>Login</Link></li>  */}
           <li className="p-4">
             <Link to={"/help"}>Help</Link>
           </li> 
