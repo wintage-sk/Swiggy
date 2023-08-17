@@ -15,7 +15,7 @@ const Body = () => {
 
  const PromotedRestaurant = withPromoted(RestaurentCard);
   useEffect(() => {
-    fetchData("http://192.168.135.142:3000/");
+    fetchData();
   }, []);
   const fetchData = async () => {
     const data = await fetch(CARD_URL ||FAKE_CARD_URL);
