@@ -27,7 +27,7 @@ const Header= () => {
     </div>
       <div className=" flex items-center">
         <ul className="flex  ">
-          <li className="p-4 ">Online Status: {onlineStatus ? "✅" : "🔴"} </li>
+          <li className="p-4 ">Online: {onlineStatus ? "✅" : "🔴"} </li>
           <li className="p-4">
             <Link to={"/"}>Home</Link>
           </li>
