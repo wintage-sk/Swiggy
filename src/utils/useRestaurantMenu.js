@@ -9,7 +9,7 @@ const useRestaurantMenu= (resID) => {
    
     
   useEffect(() => {
-    fetchMenu();
+    fetchMenu("http://192.168.135.142:3000/");
   },[]);
   const fetchMenu = async () => {
     const data = await fetch(
